@@ -24,14 +24,7 @@ function readLine() {
  */
 function staircase(n) {
     for (let i = 1; i <= n; i++) {
-        let string = '';
-        for (let j = 1; j <= n; j++) {
-            if (j > (n - i)) {
-                string += '#';
-            } else {
-                string += ' ';
-            }
-        }
+        let string = '#'.repeat(i).padStart(n);
         console.log(string);
     }
 }

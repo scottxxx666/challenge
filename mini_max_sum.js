@@ -24,14 +24,14 @@ function readLine() {
  * Complete the miniMaxSum function below.
  */
 function miniMaxSum(arr) {
-    let sumArr = arr.map((item, index, array) => {
-        const arr = array.slice();
-        arr.splice(index, 1);
-        return arr.reduce((sum, item) => sum + item);
-    });
-    const min = Math.min(...sumArr);
-    const max = Math.max(...sumArr);
+    const sorted = arr.sort();
+    const min = sorted.slice(0, -1).reduce(sum);
+    const max = sorted.slice(1).reduce(sum);;
     console.log(`${min} ${max}`);
+}
+
+function sum(a, b) {
+    return a + b;
 }
 
 function main() {

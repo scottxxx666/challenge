@@ -2,3 +2,4 @@
 2. [Dictionaries](https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem)
 3. [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem)
 4. [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem)
+5. [Kangaroo](https://www.hackerrank.com/challenges/kangaroo/problem)

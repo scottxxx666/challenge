@@ -39,3 +39,5 @@ function main() {
 
     miniMaxSum(arr);
 }
+
+module.exports = miniMaxSum;

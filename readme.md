@@ -4,3 +4,5 @@
 4. [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem)
 5. [Kangaroo](https://www.hackerrank.com/challenges/kangaroo/problem)
 6. [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem)
+7. [Save the Prisoner](https://www.hackerrank.com/challenges/save-the-prisoner/problem)
+8. [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree/problem)

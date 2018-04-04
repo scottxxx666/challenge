@@ -32,9 +32,7 @@ function getTotalX(a, b) {
      const max = Math.min(...b);
      let count = 0;
      for (let i = min; i <= max; i++) {
-         const caseA = a.reduce((pre, cur) => pre && (i % cur === 0), true);
-         const caseB = b.reduce((pre, cur) => pre && (cur % i === 0), true);
-         if (caseA && caseB) {
+         if (a.every(x => i % x === 0) && b.every(x => x % i === 0)) {
             count++;
          }
      }

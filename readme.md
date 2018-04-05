@@ -8,3 +8,4 @@
 8. [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree/problem)
 9. [Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets/problem)
 10. [Sequence Equation](https://www.hackerrank.com/challenges/permutation-equation/problem)
+11. [Beautiful Days at the Movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem)

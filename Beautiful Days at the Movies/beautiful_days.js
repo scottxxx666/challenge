@@ -1,3 +1,4 @@
+'use strict';
 process.stdin.resume();
 process.stdin.setEncoding('ascii');
 
@@ -22,17 +23,12 @@ function readLine() {
 
 function beautifulDays(i, j, k) {
     // Complete this function
-    let count = 0;
-    for (let day = i; day <= j; day++) {
-        if ((Math.abs(day - reverse(day)) % k === 0)) {
-            count++;
-        }
-    }
-    return count;
+    let length = j - i + 1;
+    return Array.from(Array(length), (x, index) => i + index).filter(x => Math.abs(x - reverse(x)) % k === 0).length;
 }
 
 function reverse(i) {
-    return parseInt(Array.from(i.toString()).reverse().join(''), 10);
+    return Number([...i.toString()].reverse().join(''));
 }
 
 function main() {

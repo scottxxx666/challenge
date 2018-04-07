@@ -9,3 +9,4 @@
 9. [Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets/problem)
 10. [Sequence Equation](https://www.hackerrank.com/challenges/permutation-equation/problem)
 11. [Beautiful Days at the Movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem)
+12. [Jumping on the Clouds: Revisited](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem)

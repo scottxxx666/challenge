@@ -24,16 +24,15 @@ function readLine() {
 
 function jumpingOnClouds(c, k) {
     // Complete this function
-    let i = 0;
-    let energy = 100;
-    do {
-        i = (i + k) % c.length;
-        energy--;
-        if (c[i] === 1) {
-            energy -= 2;
+    return c.reduce((energy, x, i) => {
+        if (i % k === 0) {
+            energy --;
+            if (x === 1) {
+                energy -= 2;
+            }
         }
-    } while (i !== 0 && energy > 0)
-    return energy;
+        return energy;
+    }, 100)
 }
 
 function main() {
